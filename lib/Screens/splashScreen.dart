@@ -43,10 +43,10 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
             children: <Widget>[
 
               Container(
-                padding: EdgeInsets.only(top: 5),
+                padding: EdgeInsets.only(top: 5, left: 3, right: 3, bottom: 2),
                 alignment: Alignment.topLeft,
                 child: Image.asset(
-                  "assets/images/splash.png",
+                  "assets/images/splashss.png",
                   height: MediaQuery.of(context).size.height,
                   width: double.infinity,
                   fit: BoxFit.cover,
